@@ -1,46 +1,12 @@
-Welcome to the Spotify Learning App – an intelligent platform built using the Spotify API to help users discover, learn, and explore music more effectively. This app not only plays your favorite songs but also learns from your listening behavior to offer tailored recommendations and insights.
+# React + Vite
 
-🚀 Features
-🎵 User Authentication via Spotify OAuth
+This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-📈 Listening Behavior Analysis to learn user preferences
+Currently, two official plugins are available:
 
-🧠 Machine Learning Recommendation Engine for smarter suggestions
+- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
+- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
-🎧 Top Tracks & Artists – see what you're really into
+## Expanding the ESLint configuration
 
-🗂️ Custom Playlists Generation based on mood, genre, or activity
-
-🕒 Recent History tracker
-
-💚 Like/Dislike Training – improve recommendations by feedback
-
-📊 Insights Dashboard showing stats about your listening habits
-
-🔍 Advanced Search with filters for genre, mood, tempo, etc.
-
-🛠️ Tech Stack
-Frontend: React.js (or Next.js)
-
-Backend: Node.js / Express
-
-Database: MongoDB or Firebase
-
-Authentication: Spotify OAuth 2.0
-
-Machine Learning: Python (scikit-learn / TensorFlow)
-
-API Integration: Spotify Web API
-
-📚 Learning Goals
-This project was built as a learning tool to explore:
-
-Integrating third-party APIs like Spotify
-
-Handling OAuth 2.0 authentication flow
-
-Applying machine learning models to real-world user data
-
-Creating responsive UI/UX for media applications
-
-Building a full-stack app from scratch
+If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
